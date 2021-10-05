@@ -39,6 +39,22 @@
     width: 100%;
     height: 600px;
     object-fit:cover;
+
+}
+
+.img-hover{
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+    display: none;
+}  
+
+.box:hover .uomo{
+    display:none
+}
+
+.box:hover .img-hover{
+    display: inline-block;
 }
 
 #prezzo{
@@ -47,6 +63,42 @@
 
 .maius{
     text-transform: uppercase;
+}
+
+.rosso{
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom:120px;
+    background-color: red;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.verde{
+    width:83px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 120px;
+    left: 35px;
+    background-color: green;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.cuore{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    background-color: white;
+    text-align:center;
+    left: 330px;
+    top: 20px;
 }
 
 /* .box:hover {
